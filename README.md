@@ -52,11 +52,10 @@ dsh plugin --profile web add git+https://github.com/qiansanyu/dsh-workspace-focu
 dsh plugin --profile web remove dsh-workspace-focus
 ```
 
-依赖和 `dsh.profile.bundles` 里的条目会一起消失。也可以在「插件」页里移除。
+依赖和 `dsh.profile.bundles` 里的条目会一起消失。也可以在「插件」页里卸载。
 
-> **不要和旧版同时装。** 如果你之前用别的方式装过一个功能相同的工作区聚焦插件
-> （例如从一个本地目录 `link:` 安装的开发版），先把那个卸掉。两个一起装的后果是：
-> 头部出现两个标签，而且它们抢同一个 `window.__DSH_WORKSPACE_FOCUS__` 句柄。
+> 同一个 profile 只装一份：两个工作区聚焦插件并存，头部会出现两个标签，还会抢同一个
+> `window.__DSH_WORKSPACE_FOCUS__` 句柄。
 
 ## 使用
 
