@@ -31,7 +31,7 @@
     "url": "https://github.com/qiansanyu/dsh-workspace-focus.git"
   },
   "dependencies": {
-    "@deepseek-ai/schemastery": "~3.18.4"
+    "@deepseek-ai/schemastery": "^3.18.4"
   },
   "dsh": {
     "bundle": { "patch": "./cordis.patch.yml" },
