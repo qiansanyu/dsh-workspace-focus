@@ -1,0 +1,3 @@
+- insert:
+    - id: workspace-focus
+      name: 'dsh-workspace-focus'
